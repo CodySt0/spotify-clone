@@ -22,13 +22,15 @@ const Player = () => {
           <img className="w-4 cursor-pointer" src={assets.next_icon} alt="" />
           <img className="w-4 cursor-pointer" src={assets.loop_icon} alt="" />
         </div>
-        <div className="flex items-center gap-5"></div>
-        <p>1:31</p>
-        <div className="w-[60vw] max-w[500px] bg-gray-300  cursor-pointer">
-          <hr className="h-1 border-none w-0 bg-green-800 border rounded-full" />
+        <div className="flex items-center gap-5">
+          <p>1:31</p>
+          <div className="w-[60vw] max-w[500px] bg-gray-300 cursor-pointer">
+            <hr className="h-1 border-none w-0 bg-green-800 border rounded-full" />
+          </div>
+          <p>3:31</p>
         </div>
-        <p>3:31</p>
       </div>
+      <div className="flex items-center gap-2 "></div>
     </div>
   );
 };
